@@ -1,5 +1,5 @@
 div.head{
-    border-top: 30px solid pink;
+    border-top: 38px solid greenyellow;
     border-bottom: 2px solid #ebeced ;
 }
 
@@ -15,4 +15,26 @@ div.head{
     margin-right: auto;
     max-width: 40%;
     word-wrap: break-word;
+}
+
+#navbar {
+    background-color: white;
+}
+
+#textonavbar {
+    color: black;
+}
+
+.bg-dark p-4{
+    background-color: white;
+}
+
+#botaonavbar {
+    background-color: white;
+    border: 1 solid black;
+}
+
+.botoesnavbar{
+    display: block;
+    float:none;
 }
