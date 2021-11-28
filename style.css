@@ -1,7 +1,49 @@
+/*Desenvolvedores: Adryan Welke da Silva | Felipe Rovigatti Delfino | Igor Henrique de Abreu*/
+
 div.head{
     border-top: 38px solid greenyellow;
     border-bottom: 2px solid #ebeced ;
 }
+
+body {
+    font-family: marta;
+}
+
+
+
+.bg-dark p-4{
+    background-color: white;
+}
+
+.botoesnavbar {
+    display: flex;
+}
+
+.bgimage img{
+    max-height: 400px;
+    max-width: 100%;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.header {
+    display: block;
+    float: left;
+    flex: 1;
+}
+
+    .header button{
+        border: none;
+        background-color:#E899C6;
+        margin-left: 20px;
+        border-bottom: 1px solid white;
+    }
+        .header button a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
 
 #porq {
     text-align: center;
@@ -17,24 +59,138 @@ div.head{
     word-wrap: break-word;
 }
 
-#navbar {
-    background-color: white;
+#textoporq2{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
-#textonavbar {
-    color: black;
+.favfather{
+    background-color: #FFE6E5;
+    height: 340px;
+    border-top: 1px solid black;
 }
 
-.bg-dark p-4{
-    background-color: white;
+.favs {
+    display: flex;
+    max-width: 1100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
-#botaonavbar {
-    background-color: white;
-    border: 1 solid black;
+    .bolos {
+        max-width: 250px;
+        height: fit-content;
+        border-radius: 4%;
+        border: 1px solid black;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+    }
+
+    .bolos img{
+        border: 1px solid black;
+        border-radius: 7%;
+    }
+
+    .bolos button{
+        border: 1px groove black;
+        border-radius: 6%;
+        background-color: white;
+    }
+    
+    .bolos button a{
+        text-decoration: none;
+        color: black;
+    }
+
+
+.catg{
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    height: 200px;
+    position: relative;
+}
+    .catg hr{
+        position: absolute;
+        bottom: 0;
+    }
+
+
+    
+footer {
+    background-color: #D18096;
+    border-top: 1px solid black
 }
 
-.botoesnavbar{
-    display: block;
-    float:none;
+    .footerlinks{
+        max-width: 1100px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .separador {
+        max-width: 100%;
+    }
+
+        .separadorlinks {
+            max-width: 120px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+
+        .separadorlinks a{
+            color: white;
+            text-decoration: none;
+            font-size: 19px;
+        }
+
+
+
+/* SEÇÃO CARDAPIO SEÇÃO CARDAPIO SEÇÃO CARDAPIO */
+
+.wrapall{
+    max-width: 1100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px groove black;
+    border-bottom: 1px groove black;
+   }
+    .containercardap{
+        display: flex;
+        overflow-wrap:normal;
+        max-width: 1100px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        .produtos{
+            margin-top: 10px;
+            width: 250px;
+            height: fit-content;
+            border-radius: 4%;
+            border: 1px solid black;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;
+            background-color: white;
+        }
+
+/*SOBRE SOBRE SOBRE SOBRE SOBRE SOBRE SOBRE*/
+
+.sobre {
+    font-size: 20px;
 }
