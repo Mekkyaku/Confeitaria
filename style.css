@@ -1,16 +1,5 @@
 /*Desenvolvedores: Adryan Welke da Silva | Felipe Rovigatti Delfino | Igor Henrique de Abreu*/
 
-div.head{
-    border-top: 38px solid greenyellow;
-    border-bottom: 2px solid #ebeced ;
-}
-
-body {
-    font-family: marta;
-}
-
-
-
 .bg-dark p-4{
     background-color: white;
 }
@@ -23,8 +12,8 @@ body {
     max-height: 400px;
     max-width: 100%;
     width: 100%;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 2px solid #D18096;
+    border-bottom: 2px solid whitesmoke;
 }
 
 .header {
@@ -37,7 +26,7 @@ body {
         border: none;
         background-color:#E899C6;
         margin-left: 20px;
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid #D18096;
     }
         .header button a{
             text-decoration: none;
@@ -68,8 +57,8 @@ body {
 
 .favfather{
     background-color: #FFE6E5;
-    height: 340px;
-    border-top: 1px solid black;
+    height: 400px;
+    border-top: 1px solid #e9c7c6;
 }
 
 .favs {
@@ -85,7 +74,7 @@ body {
         max-width: 250px;
         height: fit-content;
         border-radius: 4%;
-        border: 1px solid black;
+        border: 1px solid #e9c7c6;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -126,7 +115,8 @@ body {
     
 footer {
     background-color: #D18096;
-    border-top: 1px solid black
+    border-top: 1px solid #c97289;
+    height: 130px;
 }
 
     .footerlinks{
@@ -155,9 +145,23 @@ footer {
             font-size: 19px;
         }
 
+p.pfoot{
+    text-align: center;
+    color: rgb(63, 63, 63);
+}
+
 
 
 /* SEÇÃO CARDAPIO SEÇÃO CARDAPIO SEÇÃO CARDAPIO */
+div.cardapioflp{
+    background-color: whitesmoke;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 2%;
+}
+
 
 .wrapall{
     max-width: 1100px;
@@ -189,8 +193,6 @@ footer {
             background-color: white;
         }
 
-/*SOBRE SOBRE SOBRE SOBRE SOBRE SOBRE SOBRE*/
-
-.sobre {
-    font-size: 20px;
+button.fav{
+    border: none;
 }
